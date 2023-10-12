@@ -1,0 +1,43 @@
+.text-input-wrapper, .text-input-wrapper *{
+    box-sizing: border-box;
+    background-color: #F2F8FC;
+}
+
+.text-input-wrapper{
+    padding: 10px 15px;
+}
+
+.text-input-wrapper *{
+    margin-bottom: 5px;
+}
+
+.text-input-label{
+    margin-bottom: 5px;
+
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.text-input-sublabel{
+    margin-top: 1px;
+    
+    font-weight: 500;
+    font-size: 7px;
+    line-height: 8px;
+}
+
+.text-input{
+    color: rgba(74, 74, 74, 0.5);
+    border: none;
+    padding: 8px 0px;
+    outline: none;
+    
+    font-size: 16px;
+    font-weight: 700;
+
+    transition: 0.5s ease;
+}
+
+.text-input:focus{
+    color: #4A4A4A;
+}

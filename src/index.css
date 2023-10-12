@@ -1,0 +1,36 @@
+* {
+    color: #4A4A4A;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-family: 'roboto';
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #F8F8F8;
+}
+
+.row, .col {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,18 @@
+.button{
+    cursor: pointer;
+    
+    background-color: #FFDE67;
+    border: none;
+    padding: 6px 20px;
+    width: max-content;
+    
+    align-self: flex-end;
+    
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.button:hover{
+    background-color: #FFCF25;
+    transition: 0.5s ease;
+}
